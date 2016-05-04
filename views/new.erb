@@ -1,0 +1,19 @@
+
+<h2>Add new post</h2>
+
+<p>
+	<form action="/new" method="POST" role="form">
+		<div class="form-group">
+			<br />
+			<label>Hello, %username, acquainted?</label>
+			<input name="user[name]" class="form-control" style="width:1000px" placeholder="Enter your name" >
+		</div>
+		<br />
+		<div class="form-group">
+			<label>What you want to tell the world?</label>
+			<textarea name="post[content]" class="form-control" style="width:1000px" rows="6" placeholder="Type post here"></textarea>
+		</div>
+		<br />
+			<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</p>
